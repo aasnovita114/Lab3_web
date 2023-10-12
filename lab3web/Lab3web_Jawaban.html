@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Form Dropdown and Listbox</title>
+    <link rel="stylesheet" href="Jawab3.css">
+</head>
+
+<body>
+    <nav>
+        <a href="lab3_web.html">List HTML</a>
+        <a href="lab3_Table.html">Tabel HTML</a>
+        <a href="lab3_form.html">Form HTML</a>
+        <a href="Lab3web_Jawaban.html">Form Dropdown & Listbox</a>
+    </nav>
+    <header>
+        <h1>Form Dropdown & Listbox</h1>
+    </header>
+
+    <form class="form_tugas">
+        <label for="dropdown">Pilih salah satu buah:</label>
+        <select name="dropdown" id="dropdown">
+            <option value="apel">Apel</option>
+            <option value="jeruk">Jeruk</option>
+            <option value="durian">Durian</option>
+            <option value="mangga">Mangga</option>
+            <option value="semangak">Semangka</option>
+        </select>
+
+        <br><br>
+
+        <label for="listbox">Pilih beberapa buah:</label>
+        <select name="buah[]" multiple id="listbox">
+            <option value="apel">Apel</option>
+            <option value="jeruk">Jeruk</option>
+            <option value="durian">Durian</option>
+            <option value="mangga">Mangga</option>
+            <option value="semangka">Semangka</option>
+            <option value="kelapa">Kelapa</option>
+            <option value="anggur">Anggur</option>
+            <option value="melon">Melon</option>
+            <option value="pepaya">Pepaya</option>
+            <option value="nanas">Nanas</option>
+        </select>
+
+        <br>
+
+        <input type="submit" value="Submit" id="input_tugas">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+body {
+    font-family: Tahoma;
+  }
+  
+  h1 {
+    margin-top: 50px;
+    text-align: center;
+    color: darkcyan;
+  }
+  
+  .tabel {
+    margin: 20px auto;
+  }
+  
+  form p > label {
+    display: inline-block;
+    width: 100px;
+  }
+  
+  form input[type="text"],
+  form textarea {
+    border: 1px solid #197a43;
+  }
+  
+  form input[type="submit"] {
+    border: 1px solid #197a43;
+    background-color: #197a43;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 10px;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #3d9a38;
+    cursor: pointer;
+  }
+  
+  nav {
+    background-color: #4dacd1c5;
+    padding: 10px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 2px 4px;
+    font-size: 13px;
+  }
+  
+  nav a:hover {
+    color: #3399c2;
+  }
+  
+  nav a:active {
+    color: #7da8b9;
+  }
+  
+  /* Style untuk form dropdown & listbox */
+  .form_tugas {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style untuk label */
+  .form_tugas label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Style untuk select dropdown dan listbox */
+  .form_tugas select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Style untuk tombol Submit */
+  .form_tugas #input_tugas {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .form_tugas #input_tugas:hover {
+    background-color: #4dacd1;
+  }
